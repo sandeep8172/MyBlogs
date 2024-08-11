@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "builds": [
     {
@@ -13,19 +12,3 @@
 
   "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
 }
-=======
-{
-  "builds": [
-    {
-      "src": "index.js",
-      "use": "@vercel/node"
-    },
-    {
-      "src": "build/**",
-      "use": "@vercel/static"
-    }
-  ],
-
-  "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
-}
->>>>>>> 5d9c763d7fc905a5858ea8aa655387004f715100
