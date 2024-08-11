@@ -20,7 +20,6 @@ mongoose
 
 app.use(express.json());
 app.use("/", blogRouters);
-
 // Serve static files from the React app's build directory
 app.use(express.static(path.join(__dirname, 'build')));
 
